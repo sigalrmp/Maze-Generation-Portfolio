@@ -53,6 +53,8 @@ The Sidewinder algorithm is very similar to the Binary Tree algorithm, with two 
 Wilson's algorithm is similar to the Aldous Broder algorithm, in that it uses random walks to inefficiently but effectively generate a completely random perfect maze. The main difference is that while Aldous Broder's algorithm starts at a random cell and walks randomly until all cells have been visited, Wilson's algorithm picks unvisited cells and walks randomly until a visited cell is reached. This process is repeated until the maze is finished. The result of this is that Wilson's algorithm takes longer at the beginning when few cells have been visited, rather than at the end.
 (More information [here](https://weblog.jamisbuck.org/2011/1/20/maze-generation-wilson-s-algorithm))
 
+<img src = https://github.com/sigalrmp/Maze-Generation-Portfolio/blob/main/MazePhotos/2DMazes/WilsonsMaze.png width = 25%>
+
 ## Three Dimensional Mazes
 I also implemented three dimensional mazes, where paths utilize all three axis. Below is an image taken from inside of a three dimensional maze, generated using the Recursive Backtracker algorith.
 
